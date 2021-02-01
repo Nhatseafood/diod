@@ -1,0 +1,30 @@
+.main-jumbo {
+  background-image: url("./img/DiodHeroImage.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+}
+
+.navbar {
+  background-color: transparent;
+}
+
+.jumbotron {
+  offset-position: bottom 10px right 20px;
+}
+
+.container {
+  padding: 130px 0;
+}
+
+.container h1 {
+  color: white;
+}
+.container p {
+  color: white;
+}
+
+.row {
+  margin: auto !important;
+}

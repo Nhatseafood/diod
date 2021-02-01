@@ -1,17 +1,14 @@
 import "./App.css";
-import { Row, Col } from "react-bootstrap";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import Header from "./components/Header";
+import HomeScreen from "./screens/HomeScreen";
 
 function App() {
   return (
-    <>
-      <Container>
-        <Row>
-          <Col>
-            <h1>Hello</h1>
-          </Col>
-        </Row>
-      </Container>
-    </>
+    <Router>
+      <Header />
+      <Route path="/" component={HomeScreen} exact />
+    </Router>
   );
 }
 
