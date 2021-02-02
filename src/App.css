@@ -1,3 +1,5 @@
+/* images --------------------------- */
+
 .main-jumbo {
   background-image: url("./img/DiodHeroImage.jpg");
   background-position: center;
@@ -6,16 +8,160 @@
   height: 600px;
 }
 
+.image-bg {
+  background-image: url("./img/qube.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  margin-left: 25px;
+}
+
+.footer-logo {
+  background-image: url("./img/diodLogo.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 200px;
+  height: 150px;
+  /* margin-left: 25px; */
+}
+
+.header-logo {
+  background-image: url("./img/diodLogo.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 90px;
+  height: 50px;
+  /* margin-left: 25px; */
+}
+
+.gl-logo {
+  background-image: url("./img/G_Logo.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 170px;
+  margin: auto;
+  /* width: 90px;
+  height: 50px; */
+  /* margin-left: 25px; */
+}
+.w-logo {
+  background-image: url("./img/Wundergarten.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 170px;
+  /* width: 90px;
+    height: 50px; */
+  /* margin-left: 25px; */
+}
+
+.two-logos {
+  text-align: center;
+  margin: auto;
+}
+
+.wunder {
+  background-image: url("./img/wunder.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 500px;
+  height: 300px;
+  /* margin-left: 25px; */
+}
+
+.office-gif {
+  background-image: url("./img/G.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  /* margin-left: 25px; */
+}
+
+.beatbox {
+  background-image: url("./img/BeatBox.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 500px;
+  height: 300px;
+  /* margin-left: 25px; */
+}
+
+.infinity {
+  background-image: url("./img/mirrors.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  /* margin-left: 25px; */
+}
+
+.founders {
+  background-image: url("./img/founders.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  margin-left: 25px;
+}
+
+.dan {
+  background-image: url("./img/dan.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  margin-left: 25px;
+}
+
+.grant {
+  background-image: url("./img/grant.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  margin-left: 25px;
+}
+
+.vic {
+  background-image: url("./img/vic.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  margin-left: 25px;
+}
+
+.logo-image {
+  width: 50%;
+}
+/* colors ---------------------------------------- */
+
+body {
+  background-color: black !important;
+}
 .navbar {
   background-color: transparent;
 }
 
-.jumbotron {
-  offset-position: bottom 10px right 20px;
+.container-padding {
+  padding: 130px 0;
 }
 
-.container {
-  padding: 130px 0;
+section p {
+  color: white;
+}
+
+section h2 {
+  color: #17c9ef;
 }
 
 .container h1 {
@@ -25,6 +171,52 @@
   color: white;
 }
 
+.col h2 {
+  color: #17c9ef;
+}
+
+footer {
+  background-color: #717de9;
+}
+/* aksjdas */
 .row {
   margin: auto !important;
+}
+
+ul {
+  list-style-type: none;
+}
+
+section {
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+.col {
+  margin: auto;
+  padding: 50px;
+}
+
+.qube-section.col {
+  margin: auto;
+  padding: 50px;
+}
+
+.youtube-player {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.youtube-player h2 {
+  text-align: center;
+}
+
+.instagram h2 {
+  text-align: center;
+}
+
+.business-indiv,
+.our-tech {
+  text-align: center;
 }

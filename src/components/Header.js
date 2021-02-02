@@ -7,7 +7,7 @@ const Header = () => {
     <div>
       <Navbar className="navbar" variant="dark" expand="lg">
         <LinkContainer to="/">
-          <Navbar.Brand>Diod Designs</Navbar.Brand>
+          <Navbar.Brand className="header-logo"></Navbar.Brand>
         </LinkContainer>
 
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
