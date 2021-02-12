@@ -1,6 +1,8 @@
 import React from "react";
 import { Jumbotron, Container, Row, Col } from "react-bootstrap";
 import ReactPlayer from "react-player";
+import InstagramEmbed from "react-instagram-embed";
+import Feed from "react-instagram-authless-feed";
 
 const HomeScreen = () => {
   return (
@@ -48,7 +50,14 @@ const HomeScreen = () => {
               <h2>
                 Enjoy a video from our fully immersive installation Beatbox.
               </h2>
-              <ReactPlayer url="https://www.youtube.com/watch?v=ExXDOH1UpR8&feature=emb_title" />
+              <div className="video-wrapper">
+                <ReactPlayer
+                  className="react-player"
+                  width="100%"
+                  height="100%"
+                  url="https://www.youtube.com/watch?v=ExXDOH1UpR8&feature=emb_title"
+                />
+              </div>
             </section>
           </Col>
         </Row>
@@ -56,6 +65,7 @@ const HomeScreen = () => {
           <Col>
             <section className="business-indiv">
               <h2>For businesses and individuals</h2>
+
               <p>
                 Our technology will transform your space into a synesthetic
                 experience. If you’re interested in buying or renting a
@@ -70,10 +80,24 @@ const HomeScreen = () => {
         </Row>
         <Row>
           <Col>
+            {/* <div id="instafeed"></div> */}
             <section className="instagram">
               <h2>Our latest Instagram posts</h2>
-              <div>instagram images</div>
+              <InstagramEmbed
+                url="https://www.instagram.com/p/8577059057"
+                clientAccessToken="439133290624753|9c19b97a489a333df934c2eea117b6c9"
+                maxWidth={320}
+                hideCaption={false}
+                containerTagName="div"
+                protocol=""
+                injectScript
+                onLoading={() => {}}
+                onSuccess={() => {}}
+                onAfterRender={() => {}}
+                onFailure={() => {}}
+              />
             </section>
+
             <section className="our-tech">
               <h2>
                 Our technology is available to those who want to build their own

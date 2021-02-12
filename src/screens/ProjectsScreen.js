@@ -1,10 +1,11 @@
 import React from "react";
 import { Jumbotron, Container, Row, Col, Image } from "react-bootstrap";
+import Feed from "react-instagram-authless-feed";
 
 const ProjectsScreen = () => {
   return (
     <>
-      <Container>
+      <Container className="flex-images">
         <Row>
           <Col lg={4} className="wunder"></Col>
           <Col>
@@ -54,8 +55,7 @@ const ProjectsScreen = () => {
           </Col>
           <Col lg={4} className="infinity"></Col>
         </Row>
-      </Container>
-      <Container>
+
         <Row>
           <Col className="text-center">
             <h2>A couple people we’ve boogied with.</h2>
